@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Egypt Gold since 1935">
+  <rect width="600" height="600" fill="#ffffff"/>
+
+  <defs>
+    <style>
+      .gray { stroke: #8f9092; }
+      .gold { stroke: #b89a34; }
+      .goldText { fill: #b89a34; }
+      .grayText { fill: #9b9b9b; }
+    </style>
+  </defs>
+
+  <!-- Clear EG monogram, redrawn from the supplied logo for small-screen readability. -->
+  <g transform="translate(92 42)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path class="gray" d="M203 35C117 35 47 105 47 191s70 156 156 156c42 0 80-16 108-43" stroke-width="33"/>
+    <path class="gray" d="M101 144h139M101 191h122M101 238h139" stroke-width="27"/>
+
+    <path class="gold" d="M292 46c37 12 69 36 91 68" stroke-width="31"/>
+    <path class="gold" d="M383 114c-28-46-78-76-136-76-87 0-157 70-157 157s70 157 157 157c77 0 141-55 154-128" stroke-width="31"/>
+    <path class="gold" d="M272 195h142c0 91-66 155-158 155" stroke-width="31"/>
+  </g>
+
+  <text x="300" y="472" text-anchor="middle"
+        font-family="Arial, Helvetica, Tahoma, sans-serif"
+        font-size="64" font-weight="500" letter-spacing="2" class="goldText">EGYPT GOLD</text>
+  <text x="300" y="530" text-anchor="middle"
+        font-family="Arial, Helvetica, Tahoma, sans-serif"
+        font-size="42" font-weight="300" class="grayText">since 1935</text>
+</svg>
